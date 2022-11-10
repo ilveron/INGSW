@@ -27,6 +27,7 @@ public class Professor extends Person {
     public String toString() {
         return "--- Professor ---" + System.lineSeparator() +
                 "Full name: " + getName() + " " + getSurname() + ";" + System.lineSeparator() +
+                "Age: " + getAge() + ";" + System.lineSeparator() +
                 "Wage: " + wage + ";" + System.lineSeparator() +
                 "Teachings: " + teachings;
     }

@@ -29,6 +29,7 @@ public class PrototypeDemo {
         s.setName("Paolo");
         s.setSurname("Sorrentino");
         s.setNumber("00123");
+        s.setAge((byte)52);
         s.addExam("Fondamenti di regia 1");
         s.addExam("Storia del cinema");
         s.addExam("Elementi di sceneggiatura");
@@ -37,6 +38,7 @@ public class PrototypeDemo {
     public static void setupProfessor(Professor p){
         p.setName("Renato");
         p.setSurname("Ferretti");
+        p.setAge((byte)63);
         p.setWage(4000);
         p.addTeaching("Tecniche avanzate di regia");
         p.addTeaching("Ottica applicata alla cardiologia");

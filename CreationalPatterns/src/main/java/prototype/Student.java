@@ -26,6 +26,7 @@ public class Student extends Person {
     public String toString() {
         return "--- Student ---" + System.lineSeparator() +
                 "Full name: " + getName() + " " + getSurname() + ";" + System.lineSeparator() +
+                "Age: " + getAge() + ";" + System.lineSeparator() +
                 "Student number: " + number + ";" + System.lineSeparator() +
                 "Taken exams: " + takenExams;
     }
